@@ -1,5 +1,5 @@
 #page title
-page_title                                : CLOC                                         # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Habits                                         # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1511471835                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -11,9 +11,9 @@ presskit_download_link                    :                                     
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/Icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : CLOC                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Habits                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Your productivity manager
+app_description                           : Your habits tracker
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -23,10 +23,10 @@ enable_smart_app_banner                   : true                                
 your_name                                 : zzmasoud                                
 your_link                                 : https://zzmasoud.github.io                     
 your_city                                 : Metaverse                                
-email_address                             : app.cloc@gmail.com
+email_address                             : zzmasoud@gmail.com
 facebook_username                         :                                           
 instagram_username                        : 
-twitter_username                          : CLOCapp
+twitter_username                          :
 github_username                           : zzmasoud
 youtube_username                          :
 
@@ -35,29 +35,17 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Time Tracker
-    description                           : track, pause, stop timer easily by mini timer view; if you prefer focus mode, tap on the mini view.
+  - title                                 : Habits
+    description                           : track and monitor your habits, and build up routines based on daily or weekly bias.
     fontawesome_icon_name                 : clock
     
-  - title                                 : Projects
-    description                           : group tasks by setting a project to them, also adding deadline to a project helps you to handle it better & watch deadline countdown.
+  - title                                 : Built-in Habits
+    description                           : Choose from built-in common habits made just for you.
     fontawesome_icon_name                 : folder
 
   - title                                 : Charts
-    description                           : viewing your productivity by charts help you stay on track to achieve your goals.
+    description                           : viewing your habits completion by charts helps you stay on track to achieve your goals.
     fontawesome_icon_name                 : signal
-
-  - title                                 : Notifications
-    description                           : get smart notifications when you set a timer or when deadline of a project get closer.
-    fontawesome_icon_name                 : bell
-
-  - title                                 : To Do Mode
-    description                           : If you prefer to-do tasks only, simply forget about timer button and just swipe right on each task to mark it as done and vice versa.
-    fontawesome_icon_name                 : check
-  
-  - title                                 : Overdue Tasks
-    description                           : We designed a new user experience where you can assign overdue tasks to upcoming days, only by swapping (time capsules).
-    fontawesome_icon_name                 : exclamation
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
